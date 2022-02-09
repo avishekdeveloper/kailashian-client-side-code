@@ -1,0 +1,22 @@
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.container-extra{
+    position: absolute;
+    bottom: 15vh;
+    left: 0;
+    right: 0;
+    background-color: antiquewhite;
+    /* padding-bottom: 50vh; */
+    
+    /* font-weight: bold; */
+    /* font-size: 2rem !important; */
+}
+
+.carousel-item{
+    /* height: 90vh; */
+    background: #777;
+    color: white;
+    position: relative;
+}

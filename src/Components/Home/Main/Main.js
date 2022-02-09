@@ -9,22 +9,13 @@ const Main = () => {
                     <div class="sub-copy">KAILASA is the Revival of the Ancient Enlightened Hindu Civilizational Nation which is being
                         revived by displaced Hindus from around the world. <br /><br />The Kailashian movement is founded and
                         spearheaded by members of the Hindu Adi Shaivite minority community from Canada, the United States and other
-                        Countries and is created for and offers a safe haven to all the world’s practicing, aspiring or persecuted
+                        Countries and is created for and offers a safe haven to all the world's practicing, aspiring or persecuted
                         Hindus, irrespective of race, gender, sect, caste, or creed, where they can peacefully live and express their
                         spirituality, arts, and culture free from denigration, interference and violence.<br /></div>
                 </div>
             </div>
 
-            <div class="home-page-tout wf-section">
-                <div class="home-page-text-container w-container">
-                    <div class="sub-copy">KAILASA is the Revival of the Ancient Enlightened Hindu Civilizational Nation which is being
-                        revived by displaced Hindus from around the world. <br /><br />The Kailashian movement is founded and
-                        spearheaded by members of the Hindu Adi Shaivite minority community from Canada, the United States and other
-                        Countries and is created for and offers a safe haven to all the world’s practicing, aspiring or persecuted
-                        Hindus, irrespective of race, gender, sect, caste, or creed, where they can peacefully live and express their
-                        spirituality, arts, and culture free from denigration, interference and violence.<br /></div>
-                </div>
-            </div>
+           
             <div class="section wf-section">
                 <div class="sub-tout-container w-container"></div>
                 <div class="container-2 w-container">

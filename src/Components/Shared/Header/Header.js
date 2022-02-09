@@ -1,6 +1,4 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -117,6 +115,7 @@ const Header = () => {
                     </nav>
                 </header>
             </div>
+            
             {/* <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark text-white">
                 <div class="container bg-success ">
                     <a class="navbar-brand bg-success" href="/">Navbar</a>
