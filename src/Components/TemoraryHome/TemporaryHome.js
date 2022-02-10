@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, NavLink } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './sam/css/hover-min.css'
 import './sam/css/style.css'
 import ds from './sam/images/DSL.png'
@@ -12,9 +12,9 @@ const TemporaryHome = () => {
     return (
         <div class="bg-dark ">
 
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="/"> </a> to improve your experience.</p>
-            
-            <nav class="navbar">
+            {/* <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="/"> </a> to improve your experience.</p> */}
+
+            <nav class="py-3">
                 <div class="container">
                     <a class="navbar-brand mr-auto" rel="norefferer" href="https://dslegends.org/" >
                         <img src={ds} alt="DS Legends Logo" style={{ width: "200px" }} />
@@ -24,7 +24,7 @@ const TemporaryHome = () => {
 
             <NavLink to={`/users`} className="link-light"> </NavLink>
             <div class="container text-white text-left">
-                <div class="row" id="underMaintenanceRow">
+                <div class="row py-5" id="">
                     <div class="col-md-12">
                         <p>NFT Marketplaces under development by DSL</p>
                         <p>1. <a href="https://videonft.sg/" class="text-white" target="_blank">videonft.sg</a> : A BSC NFT marketplace where any video can be converted into NFT.</p>
@@ -34,9 +34,9 @@ const TemporaryHome = () => {
                         <p>5. <a href="https://blockchainsdomain.com/" class="text-white" target="_blank">blockchainsdomain.com</a>: A NFT marketplace for Blockchain Domains from BSC.</p>
                     </div>
                 </div>
-                <div class="row pt-3" id="contactusRow">
+                <div class="row " id="contactusRow">
                     <div class="col-md-12">
-                        <h4 id="contactUsTitle">contact us</h4>
+                        <h4 id="contactUsTitle" className='pb-1'>contact us</h4>
                         <ul class="nav text-center" id="contactNav">
 
                         </ul>

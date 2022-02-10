@@ -7,7 +7,7 @@ const Slider = () => {
 
     // new Splide('.splide').mount();
     return (
-        <div>
+        <div className="pt-5 ">
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 

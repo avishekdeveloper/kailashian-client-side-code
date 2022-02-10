@@ -9084,8 +9084,8 @@ body {
   border: 0 solid #000;
   font-family: Poppins, sans-serif;
   color: #fff;
-  font-size: 5vw;
-  line-height: 4vw;
+  font-size: 4vw !important;
+  line-height: 4vw !important;
   font-weight: 800;
   text-align: left;
   text-transform: uppercase;
