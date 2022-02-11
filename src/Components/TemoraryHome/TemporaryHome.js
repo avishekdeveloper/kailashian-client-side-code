@@ -1,6 +1,6 @@
 import React from 'react';
-import { Nav, NavLink } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-bootstrap';
+
 import './sam/css/hover-min.css'
 import './sam/css/style.css'
 import ds from './sam/images/DSL.png'
@@ -27,11 +27,11 @@ const TemporaryHome = () => {
                 <div className="row py-5" id="">
                     <div className="col-md-12">
                         <p>NFT Marketplaces under development by DSL</p>
-                        <p>1. <a href="https://videonft.sg/" className="text-white" target="_blank">videonft.sg</a> : A BSC NFT marketplace where any video can be converted into NFT.</p>
-                        <p>2. <a href="https://physicalnft.org/" className="text-white" target="_blank">physicalnft.org</a>: A BSC NFT marketplace where anything valuable can be converted into a NFT.</p>
-                        <p>3. <a href="https://kailashian.com/" className="text-white" target="_blank">kailashian.com</a>: A BSC Metaverse Project which consists of Digital Payment Tokens, Man-Made Island NFTs and Virtual Reality Videos.</p>
-                        <p>4. <a href="https://grighund.net/" className="text-white" target="_blank">grighund.net</a>: A BSC Metaverse Project which consists of Grey Hound Racing Dogs and Virtual Reality Videos.</p>
-                        <p>5. <a href="https://blockchainsdomain.com/" className="text-white" target="_blank">blockchainsdomain.com</a>: A NFT marketplace for Blockchain Domains from BSC.</p>
+                        <p>1. <a href="https://videonft.sg/" className="text-white" target="_blank" rel="noreferrer" >videonft.sg</a> : A BSC NFT marketplace where any video can be converted into NFT.</p>
+                        <p>2. <a href="https://physicalnft.org/" className="text-white" target="_blank" rel="noreferrer" >physicalnft.org</a>: A BSC NFT marketplace where anything valuable can be converted into a NFT.</p>
+                        <p>3. <a href="https://kailashian.com/" className="text-white" target="_blank" rel="noreferrer" >kailashian.com</a>: A BSC Metaverse Project which consists of Digital Payment Tokens, Man-Made Island NFTs and Virtual Reality Videos.</p>
+                        <p>4. <a href="https://grighund.net/" className="text-white" target="_blank" rel="noreferrer" >grighund.net</a>: A BSC Metaverse Project which consists of Grey Hound Racing Dogs and Virtual Reality Videos.</p>
+                        <p>5. <a href="https://blockchainsdomain.com/" className="text-white" target="_blank" rel="noreferrer" >blockchainsdomain.com</a>: A NFT marketplace for Blockchain Domains from BSC.</p>
                     </div>
                 </div>
                 <div className="row " id="contactusRow">

@@ -33,7 +33,7 @@ const What = () => {
                     <div className="sub-copy">See what’s going on in the Kailashian universe. Get answers to your questions or advice on
                         advanced game strategy and connect with our community!<br /></div>
                     <div className="w-layout-grid socials">
-                        <a className="socials-links w-inline-block" href="https://discord.gg/BZsW2XcAen" target="_blank">
+                        <a className="socials-links w-inline-block" href="https://discord.gg/BZsW2XcAen" target="_blank" rel="noreferrer" >
 
                             <img src="images/discord.svg" alt="" className=" discord img-fluid h-100" />
                         </a>

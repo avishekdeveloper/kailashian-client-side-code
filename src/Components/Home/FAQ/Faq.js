@@ -107,7 +107,7 @@ const Faq = () => {
                 <div className="container w-container">
                     <h1 className="center-headline-large">FAQ</h1>
                     <div className="sub-copy">Curious about how Kailashian works? Check out our FAQ below. Can't find an answer to what
-                        you need? Click <a href="https://discord.com/invite/BZsW2XcAen" target="_blank" className="link-21">here</a> to join our Discord and our community will help you out.
+                        you need? Click <a href="https://discord.com/invite/BZsW2XcAen" target="_blank" rel="noreferrer"  className="link-21">here</a> to join our Discord and our community will help you out.
                     </div>
 
 

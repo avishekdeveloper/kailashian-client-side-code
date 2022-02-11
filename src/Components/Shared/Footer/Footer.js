@@ -18,7 +18,7 @@ const Footer = () => {
                                 <div className="column-11 w-col w-col-1">
 
                                     {/* <Link to="/Telegram" className="w-inline-block"> */}
-                                        <a href="https://discord.gg/BZsW2XcAen" target="_blank">
+                                        <a href="https://discord.gg/BZsW2XcAen" target="_blank" rel="noreferrer" >
 
                                         <img src="images/icons8-discord.svg" alt="" className=" discord" />
                                         </a>
@@ -99,7 +99,7 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <a className='footer-link' href="https://discord.gg/BZsW2XcAen" target="_blank">Discord</a>
+                                        <a className='footer-link' href="https://discord.gg/BZsW2XcAen" target="_blank" rel="noreferrer" >Discord</a>
                                         {/* <Link className="footer-link" to="/Telegram">Telegram</Link> */}
                                     </li>
 
