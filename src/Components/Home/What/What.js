@@ -33,9 +33,13 @@ const What = () => {
                     <div className="sub-copy">See what’s going on in the Kailashian universe. Get answers to your questions or advice on
                         advanced game strategy and connect with our community!<br /></div>
                     <div className="w-layout-grid socials">
-                        <Link tor="Telegram" className="socials-links w-inline-block">
+                        <a className="socials-links w-inline-block" href="https://discord.gg/BZsW2XcAen" target="_blank">
+
+                            <img src="images/discord.svg" alt="" className=" discord img-fluid h-100" />
+                        </a>
+                        {/* <Link to="/Telegram" className="socials-links w-inline-block">
                             <img src="images/telegram-app.svg" alt="Telegram icon " className="socials-img" />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
@@ -44,8 +48,13 @@ const What = () => {
                     <div className="newsletter-column w-row">
                         <div className="column-3 w-col w-col-4">
                             <div className="form-block w-form">
-                                <form id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" className="form w-clearfix"><a
-                                    href="/newsletter.html" className="primary-button w-button">newsletter signup</a></form>
+                                <div id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" className="form w-clearfix">
+
+                                    <Link to="/newsletter" className="primary-button w-button">
+                                        newsletter signup
+                                    </Link>
+
+                                </div>
                                 <div className="w-form-done">
                                     <div>Thank you! Your submission has been received!</div>
                                 </div>
