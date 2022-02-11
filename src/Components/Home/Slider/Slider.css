@@ -42,12 +42,66 @@
   text-transform: uppercase;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
 }
-
-@media screen and (max-width: 600px) {
-    .carousel-text {
-        font-size: 30px !important;
-        line-height: 30px !important;
-        width: 80%;
-        background-color: green;
+*/
+.slider-link-style{
+    text-decoration: none !important;
+}
+@media only screen and  (max-width: 688px) {
+    .primary-button-big {
+    width: 75vw !important;
+    /* text-align: center !important;  */
+    font-size: 13px !important;
+    padding: 5px 23px !important;
     }
+    .slider-custom-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-caption-style{
+    /* margin-top: 20px !important; */
+    font-size: 30px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    text-shadow: 2px;
+      -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: rgb(90, 43, 43);
+       text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+
+.slider-main-button{
+    /* line-height: 10px !important; */
+    font-size: 1rem !important;
+}
+/* .carousel-content-style{
+
+} */
+.slider-content-style{
+    margin-top: 50px !important;
+    /* margin:  0 0 0 0 !important; */
+    /* background-color: #000; */
+}
+
+} 
+
+/* .small-device-style{
+    font-size: 500px;
+} */
+.slider-main-button{
+    /* line-height: 10px !important; */
+    font-size: 1.3rem !important;
+}
+
+
+/* .sm-slider-title-style{
+    text-shadow: 2px;
+      -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: rgb(90, 43, 43);
+       text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
 } */

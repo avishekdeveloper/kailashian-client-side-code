@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div>
             {/* <!-- Footer --> */}
-            <div className="footer-nav wf-section">
+            <div className="footer-nav wf-section py-5">
                 <div className="social-footer-container w-container">
                     <div>
                         <h3 className="followus-title">Follow us on</h3>
@@ -24,7 +24,7 @@ const Footer = () => {
                                         </a>
                                     {/* </Link> */}
                                 </div>
-                                <div className="column-13 w-col w-col-7"></div>
+                                {/* <div className="column-13 w-col w-col-7"></div> */}
                             </div>
                         </div>
                     </div>
@@ -51,28 +51,28 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/About">About</Link>
+                                        <Link className="footer-link" to="/about">About</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Roadmap">Roadmap</Link>
+                                        <Link className="footer-link" to="/roadmap">Roadmap</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Careers">Careers</Link>
+                                        <Link className="footer-link" to="/careers">Careers</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Branding">Branding</Link>
+                                        <Link className="footer-link" to="/branding">Branding</Link>
                                     </li>
 
                                 </ul>
@@ -83,7 +83,7 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/News">News</Link>
+                                        <Link className="footer-link" to="/news">News</Link>
                                     </li>
 
                                 </ul>
@@ -91,7 +91,7 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Support">Support</Link>
+                                        <Link className="footer-link" to="/support">Support</Link>
                                     </li>
 
                                 </ul>
@@ -111,14 +111,14 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Terms">Terms of Service</Link>
+                                        <Link className="footer-link" to="/terms-of-service">Terms of Service</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Privacy">Privacy Policy</Link>
+                                        <Link className="footer-link" to="/privacy-policy">Privacy Policy</Link>
                                     </li>
 
                                 </ul>
@@ -126,7 +126,7 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <Link className="footer-link" to="/Disclaimer">Disclaimer</Link>
+                                        <Link className="footer-link" to="/disclaimer">Disclaimer</Link>
                                     </li>
                                 </ul>
                             </div>

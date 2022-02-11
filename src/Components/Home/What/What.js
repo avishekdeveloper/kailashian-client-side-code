@@ -50,7 +50,7 @@ const What = () => {
                             <div className="form-block w-form">
                                 <div id="wf-form-Email-Form" name="wf-form-Email-Form" data-name="Email Form" className="form w-clearfix">
 
-                                    <Link to="/newsletter" className="primary-button w-button">
+                                    <Link to="/newsletter-signup" className="primary-button w-button">
                                         newsletter signup
                                     </Link>
 

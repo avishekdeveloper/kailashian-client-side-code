@@ -43,71 +43,69 @@ function App() {
 
           {/* Header */}
           {/* Guides & Tutorials */}
-          <Route exact path="/whatis">
+          <Route exact path="/what-is-kailashian">
             <WhatIsK></WhatIsK>
           </Route>
-          <Route exact path="/buy">
+          <Route exact path="/buying-island">
             <BuyingIsland></BuyingIsland>
           </Route>
-          <Route exact path="/sell">
+          <Route exact path="/selling-island">
             <SellingIsland></SellingIsland>
           </Route>
-          <Route exact path="/getYour">
+          <Route exact path="/get-your-kailashian">
             <GetYour></GetYour>
           </Route>
-          <Route exact path="/earnUSD">
+          <Route exact path="/earn-usd">
             <EarnUSD></EarnUSD>
           </Route>
-          <Route exact path="/earnUSD">
-            <EarnUSD></EarnUSD>
-          </Route>
+
 
 
 
 
           {/* About Us */}
-          <Route exact path="/About">
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route exact path="/Roadmap">
+          <Route exact path="/roadmap">
             <Roadmap></Roadmap>
           </Route>
-          <Route exact path="/Careers">
+          <Route exact path="/careers">
             <Careers></Careers>
           </Route>
-          <Route exact path="/Branding">
+          <Route exact path="/branding">
             <Branding></Branding>
           </Route>
 
 
 
           {/* Community */}
-          <Route exact path="/News">
+          <Route exact path="/news">
             <News></News>
           </Route>
-          <Route exact path="/Support">
+          <Route exact path="/support">
             <Support></Support>
           </Route>
-          <Route exact path="/Telegram">
+          <Route exact path="/telegram">
             <Telegram></Telegram>
           </Route>
-          <Route exact path="/getYour">
+          <Route exact path="/get-your-kailashian">
             <GetYour></GetYour>
           </Route>
-          <Route exact path="/learnMore">
+          <Route exact path="/learn-more">
             <LearnMore></LearnMore>
           </Route>
 
 
 
           {/* Footer */}
-          <Route exact path="/Terms">
+          <Route exact path="/terms-of-service">
             <Terms></Terms>
           </Route>
-          <Route exact path="/Privacy">
+          <Route exact path="/privacy-policy">
             <Privacy></Privacy>
           </Route>
-          <Route exact path="/Disclaimer">
+          <Route exact path="/disclaimer">
             <Disclaimer></Disclaimer>
           </Route>
           <Route exact path="/Request">
@@ -123,7 +121,7 @@ function App() {
           <Route exact path="/viewMoreEvent">
             <MoreEvents></MoreEvents>
           </Route>
-          <Route exact path="/newsletter">
+          <Route exact path="/newsletter-signup">
             <NewsLetter></NewsLetter>
           </Route>
 

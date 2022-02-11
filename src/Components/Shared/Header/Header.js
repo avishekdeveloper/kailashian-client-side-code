@@ -16,7 +16,7 @@ const Header = () => {
                             <div className="col h-col-right">
                                 <div className="h-btn-wr">
 
-                                    <Link to="/learnMore" className="h-btn w-button">Learn More</Link>
+                                    <Link to="/learn-more" className="h-btn w-button">Learn More</Link>
                                     {/* <a href="/learnMore.html" className="h-btn w-button">Learn More</a> */}
                                 </div>
                             </div>
@@ -38,35 +38,35 @@ const Header = () => {
                                 <div className="w-dyn-list">
                                     <div role="list" className="w-dyn-items">
                                         <div role="listitem" className="w-dyn-item"><span >
-                                            <Link className="dropdown-link w-dropdown-link" to="/whatis">What is Kailashian.com?</Link>
+                                            <Link className="dropdown-link w-dropdown-link" to="/what-is-kailashian">What is Kailashian.com?</Link>
                                         </span></div>
                                     </div>
                                 </div>
                                 <div className="w-dyn-list">
                                     <div role="list" className="w-dyn-items">
                                         <div role="listitem" className="w-dyn-item">
-                                            <Link className="dropdown-link w-dropdown-link" to="/buy">Buying Island</Link>
+                                            <Link className="dropdown-link w-dropdown-link" to="/buying-island">Buying Island</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="w-dyn-list">
                                     <div role="list" className="w-dyn-items">
                                         <div role="listitem" className="w-dyn-item">
-                                            <Link className="dropdown-link w-dropdown-link" to="/sell">Selling Island</Link>
+                                            <Link className="dropdown-link w-dropdown-link" to="/selling-island">Selling Island</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="w-dyn-list">
                                     <div role="list" className="w-dyn-items">
                                         <div role="listitem" className="w-dyn-item">
-                                            <Link className="dropdown-link w-dropdown-link" to="/getYour">Get Your Kailashian Dollars</Link>
+                                            <Link className="dropdown-link w-dropdown-link" to="/get-your-kailashian">Get Your Kailashian Dollars</Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="w-dyn-list">
                                     <div role="list" className="w-dyn-items">
                                         <div role="listitem" className="w-dyn-item">
-                                            <Link className="dropdown-link w-dropdown-link" to="/earnUSD">Earn USD</Link>
+                                            <Link className="dropdown-link w-dropdown-link" to="/earn-usd">Earn USD</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -92,10 +92,10 @@ const Header = () => {
                                 <div className="text-block-nav">About Us</div>
                             </div>
                             <nav className="dropdown-list w-dropdown-list">
-                                <Link className="dropdown-link w-dropdown-link" to="/About">About</Link>
-                                <Link className="dropdown-link w-dropdown-link" to="/Roadmap">Roadmap</Link>
-                                <Link className="dropdown-link w-dropdown-link" to="/Careers">Careers</Link>
-                                <Link className="dropdown-link w-dropdown-link" to="/Branding">Branding</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/about">About</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/roadmap">Roadmap</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/careers">Careers</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/branding">Branding</Link>
 
                             </nav>
                         </div>
@@ -105,14 +105,14 @@ const Header = () => {
                                 <div className="text-block-nav">Community</div>
                             </div>
                             <nav className="dropdown-list w-dropdown-list">
-                                <Link className="dropdown-link w-dropdown-link" to="/News">News</Link>
-                                <Link className="dropdown-link w-dropdown-link" to="/Support">Support</Link>
-                                <Link className="dropdown-link w-dropdown-link" to="/Telegram">Telegram</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/news">News</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/support">Support</Link>
+                                <Link className="dropdown-link w-dropdown-link" to="/telegram">Telegram</Link>
 
                             </nav>
                         </div>
 
-                        <Link event_name="Root Website" className="nav-button w-nav-link" to="/getYour">GET YOUR KAILASHIAN DOLLARS</Link>
+                        <Link event_name="Root Website" className="nav-button w-nav-link" to="/get-your-kailashian">GET YOUR KAILASHIAN DOLLARS</Link>
                         {/* <a href="/getYour.html" event_name="Root Website" className="nav-button w-nav-link">GET YOUR KAILASHIAN DOLLARS</a> */}
                         <h3 className="nav-title-header-mob">Guides &amp; Tutorials</h3>
                         <div className="w-dyn-list">
