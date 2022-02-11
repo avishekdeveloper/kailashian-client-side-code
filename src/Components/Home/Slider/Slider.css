@@ -1,5 +1,11 @@
 .carousel {
     margin-bottom: 4rem;
+    /* height: 100vh; */
+}
+
+.small-img {
+    height: 93vh;
+    width: 100vh;
 }
 
 .container-extra{
@@ -20,3 +26,28 @@
     color: white;
     position: relative;
 }
+
+/* .carousel-text {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 300px 35px 0;
+  border: 0 solid #000;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 4vw !important;
+  line-height: 4vw !important;
+  font-weight: 800;
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+    .carousel-text {
+        font-size: 30px !important;
+        line-height: 30px !important;
+        width: 80%;
+        background-color: green;
+    }
+} */

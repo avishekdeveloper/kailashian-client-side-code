@@ -3,9 +3,9 @@ import React from 'react';
 const Disclaimer = () => {
     return (
         <div className="py-5">
-            <div class="about-us-section ">
+            <div className="about-us-section ">
                 <h1>Disclaimer</h1>
-                <div class="container w-container">
+                <div className="container w-container">
 
                 </div>
 

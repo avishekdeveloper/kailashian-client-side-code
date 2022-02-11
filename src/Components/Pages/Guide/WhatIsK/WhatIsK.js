@@ -3,9 +3,9 @@ import React from 'react';
 const WhatIsK = () => {
     return (
         <div className="py-5">
-            <div class="about-us-section ">
+            <div className="about-us-section ">
                 <h1>What is Kailashian.com?</h1>
-                <div class="container w-container">
+                <div className="container w-container">
 
                 </div>
 

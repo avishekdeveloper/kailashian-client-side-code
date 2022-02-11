@@ -10,34 +10,34 @@ import './TemporaryHome.css'
 const TemporaryHome = () => {
 
     return (
-        <div class="bg-dark ">
+        <div className="bg-dark ">
 
-            {/* <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="/"> </a> to improve your experience.</p> */}
+            {/* <p className="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="/"> </a> to improve your experience.</p> */}
 
-            <nav class="py-3">
-                <div class="container">
-                    <a class="navbar-brand mr-auto" rel="norefferer" href="https://dslegends.org/" >
+            <nav className="py-3">
+                <div className="container">
+                    <a className="navbar-brand mr-auto" rel="norefferer" href="https://dslegends.org/" >
                         <img src={ds} alt="DS Legends Logo" style={{ width: "200px" }} />
                     </a>
                 </div>
             </nav>
 
             <NavLink to={`/users`} className="link-light"> </NavLink>
-            <div class="container text-white text-left">
-                <div class="row py-5" id="">
-                    <div class="col-md-12">
+            <div className="container text-white text-left">
+                <div className="row py-5" id="">
+                    <div className="col-md-12">
                         <p>NFT Marketplaces under development by DSL</p>
-                        <p>1. <a href="https://videonft.sg/" class="text-white" target="_blank">videonft.sg</a> : A BSC NFT marketplace where any video can be converted into NFT.</p>
-                        <p>2. <a href="https://physicalnft.org/" class="text-white" target="_blank">physicalnft.org</a>: A BSC NFT marketplace where anything valuable can be converted into a NFT.</p>
-                        <p>3. <a href="https://kailashian.com/" class="text-white" target="_blank">kailashian.com</a>: A BSC Metaverse Project which consists of Digital Payment Tokens, Man-Made Island NFTs and Virtual Reality Videos.</p>
-                        <p>4. <a href="https://grighund.net/" class="text-white" target="_blank">grighund.net</a>: A BSC Metaverse Project which consists of Grey Hound Racing Dogs and Virtual Reality Videos.</p>
-                        <p>5. <a href="https://blockchainsdomain.com/" class="text-white" target="_blank">blockchainsdomain.com</a>: A NFT marketplace for Blockchain Domains from BSC.</p>
+                        <p>1. <a href="https://videonft.sg/" className="text-white" target="_blank">videonft.sg</a> : A BSC NFT marketplace where any video can be converted into NFT.</p>
+                        <p>2. <a href="https://physicalnft.org/" className="text-white" target="_blank">physicalnft.org</a>: A BSC NFT marketplace where anything valuable can be converted into a NFT.</p>
+                        <p>3. <a href="https://kailashian.com/" className="text-white" target="_blank">kailashian.com</a>: A BSC Metaverse Project which consists of Digital Payment Tokens, Man-Made Island NFTs and Virtual Reality Videos.</p>
+                        <p>4. <a href="https://grighund.net/" className="text-white" target="_blank">grighund.net</a>: A BSC Metaverse Project which consists of Grey Hound Racing Dogs and Virtual Reality Videos.</p>
+                        <p>5. <a href="https://blockchainsdomain.com/" className="text-white" target="_blank">blockchainsdomain.com</a>: A NFT marketplace for Blockchain Domains from BSC.</p>
                     </div>
                 </div>
-                <div class="row " id="contactusRow">
-                    <div class="col-md-12">
+                <div className="row " id="contactusRow">
+                    <div className="col-md-12">
                         <h4 id="contactUsTitle" className='pb-1'>contact us</h4>
-                        <ul class="nav text-center" id="contactNav">
+                        <ul className="nav text-center" id="contactNav">
 
                         </ul>
                     </div>
