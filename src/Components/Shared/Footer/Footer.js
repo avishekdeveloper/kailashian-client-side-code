@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
             {/* <!-- Footer --> */}
             <div className="footer-nav wf-section py-5">
-                <div className="social-footer-container w-container">
+                {/* <div className="social-footer-container w-container">
                     <div>
                         <h3 className="followus-title">Follow us on</h3>
                     </div>
@@ -17,18 +17,15 @@ const Footer = () => {
                             <div className="socials-footer w-row">
                                 <div className="column-11 w-col w-col-1">
 
-                                    {/* <Link to="/Telegram" className="w-inline-block"> */}
-                                        <a href="https://discord.gg/BZsW2XcAen" target="_blank" rel="noreferrer" >
+                                        <a href="https://discord.gg/BZsW2XcAen" target="_blank">
 
                                         <img src="images/icons8-discord.svg" alt="" className=" discord" />
                                         </a>
-                                    {/* </Link> */}
                                 </div>
-                                {/* <div className="column-13 w-col w-col-7"></div> */}
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
@@ -99,7 +96,7 @@ const Footer = () => {
                             <div>
                                 <ul className="w-list-unstyled">
                                     <li>
-                                        <a className='footer-link' href="https://discord.gg/BZsW2XcAen" target="_blank" rel="noreferrer" >Discord</a>
+                                        <a className='footer-link' href="https://discord.gg/BZsW2XcAen" target="_blank">Discord</a>
                                         {/* <Link className="footer-link" to="/Telegram">Telegram</Link> */}
                                     </li>
 

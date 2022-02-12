@@ -1,0 +1,11 @@
+.dropdown-style {
+    z-index: 1 !important;
+}
+.navbar-style{
+    position: relative;
+}
+@media only screen and  (max-width: 688px)  {
+    .title-sm-style{
+        display: none !important;
+    }
+}

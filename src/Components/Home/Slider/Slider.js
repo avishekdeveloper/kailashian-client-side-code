@@ -8,7 +8,7 @@ const Slider = () => {
 
     // new Splide('.splide').mount();
     return (
-        <div className="pt-5">
+        <div className="">
 
             {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
@@ -60,43 +60,43 @@ const Slider = () => {
                     <div className="carousel-item active">
                         <img src="images/slide01.png" className="d-md-block d-none h-100 w-100" alt="..." />
                         <img src="images/slide01-m.jpeg" className="d-md-none d-sm-block small-img img-fuild" alt="..." />
-                        <div className="container container-extra  ">
+                        <div className="container container-extra slider-content-new-style  ">
                             <div className="carousel-caption  text-start slider-content-style   ">
                                 <h2 className="header-headline-slider slider-caption-style">KAILASHIAN IS THE NEXT BIG THING IN THE PARALLEL WORLD</h2>
 
-                                <Link to="/">
+                                <Link to="/what-is-kailashian">
                                     <div className="div-block-64 w-clearfix">
                                         <span data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</span>
                                     </div>
                                 </Link>
                                 {/* <div className="div-block-64 w-clearfix"><Link to="/joinMeta.html" data-event-category="Enter Upland Button" className="primary-button-big ga-event w-button">Join the Metaverse</Link></div> */}
-                                {/* <div className=" div-block-64 w-clearfix"><Link to="/" data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</Link></div> */}
+                                {/* <div className=" div-block-64 w-clearfix"><Link to="/what-is-kailashian" data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</Link></div> */}
                             </div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="images/slide01.png" className="d-md-block d-none h-100 w-100" alt="..." />
                         <img src="images/slide01-m.jpeg" className="d-md-none d-sm-block small-img img-fuild" alt="..." />
-                        <div className="container container-extra ">
+                        <div className="container container-extra slider-content-new-style ">
                             <div className="carousel-caption  text-start slider-content-style  ">
                                 <h2 className="header-headline-slider slider-caption-style">KAILASHIAN IS THE NEXT BIG THING IN THE PARALLEL WORLD</h2>
 
-                                <Link to="/">
+                                <Link to="/what-is-kailashian">
                                     <div className="div-block-64 w-clearfix">
                                         <span data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</span>
                                     </div>
                                 </Link>
-                                {/* <div className="div-block-64 w-clearfix"><Link to="/" data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</Link></div> */}
+                                {/* <div className="div-block-64 w-clearfix"><Link to="/what-is-kailashian" data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</Link></div> */}
                             </div>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="images/slide01.png" className="d-md-block d-none h-100 w-100" alt="..." />
                         <img src="images/slide01-m.jpeg" className="d-md-none d-sm-block small-img img-fuild" alt="..." />
-                        <div className="container container-extra ">
+                        <div className="container container-extra slider-content-new-style ">
                             <div className="carousel-caption  text-start slider-content-style   ">
                                 <h2 className="header-headline-slider slider-caption-style">KAILASHIAN IS THE NEXT BIG THING IN THE PARALLEL WORLD</h2>
-                                <Link to="/">
+                                <Link to="/what-is-kailashian">
                                     <div className="div-block-64 w-clearfix">
                                         <span data-event-category="Enter Upland Button" className="slider-main-button primary-button-big ga-event w-button">Join the Metaverse</span>
                                     </div>

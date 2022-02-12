@@ -22,7 +22,7 @@
 
 .carousel-item{
     /* height: 90vh; */
-    background: #777;
+    /* background: #777; */
     color: white;
     position: relative;
 }
@@ -47,6 +47,19 @@
     text-decoration: none !important;
 }
 @media only screen and  (max-width: 688px) {
+
+.slider-content-new-style{
+    /* background-color: aqua !important; */
+    margin-top: 10vh !important;
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    position:relative; 
+    /* left:20px;  */
+    top:-20px;
+}
+
+
     .primary-button-big {
     width: 75vw !important;
     /* text-align: center !important;  */
@@ -60,6 +73,12 @@
 }
 .slider-caption-style{
     /* margin-top: 20px !important; */
+    /* background-color: aqua !important; */
+    
+    /* position: relative !important; */
+ 
+    display: inline-block !important;
+    
     font-size: 30px !important;
     line-height: 30px !important;
     text-align: center !important;
