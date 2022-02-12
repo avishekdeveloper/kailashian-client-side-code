@@ -5,33 +5,16 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
+        <div >
             {/* <!-- Footer --> */}
             <div className="footer-nav wf-section py-5">
-                {/* <div className="social-footer-container w-container">
-                    <div>
-                        <h3 className="followus-title">Follow us on</h3>
-                    </div>
-                    <div className="columns-4 w-row">
-                        <div className="column-9 w-col w-col-7">
-                            <div className="socials-footer w-row">
-                                <div className="column-11 w-col w-col-1">
-
-                                        <a href="https://discord.gg/BZsW2XcAen" target="_blank">
-
-                                        <img src="images/icons8-discord.svg" alt="" className=" discord" />
-                                        </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+/
 
 
 
-                <div className="footer-nav-contaner w-container">
-                    <div className="columns-footer">
-                        <div>
+                <div className="footer-nav-contaner w-container d-flex justify-content-center align-items-center  px-auto mx-auto">
+                    <div className="row columns-footer  row-cols-md-5 row-cols-1" >
+                        <div className="col">
                             <h3 className="footer-title-header">Support</h3>
                             <div>
                                 <ul className="w-list-unstyled">
@@ -43,7 +26,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div>
+                        <div className="col">
                             <h3 className="footer-title-header">About Us</h3>
                             <div>
                                 <ul className="w-list-unstyled">
@@ -59,7 +42,7 @@ const Footer = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div>
+                            <div >
                                 <ul className="w-list-unstyled">
                                     <li>
                                         <Link className="footer-link" to="/careers">Careers</Link>
@@ -75,7 +58,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div>
+                        <div className="col">
                             <h3 className="footer-title-header">Community</h3>
                             <div>
                                 <ul className="w-list-unstyled">
@@ -103,7 +86,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div>
+                        <div className="col">
                             <h3 className="footer-title-header">Legal</h3>
                             <div>
                                 <ul className="w-list-unstyled">

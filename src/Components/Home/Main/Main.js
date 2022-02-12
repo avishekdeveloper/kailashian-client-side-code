@@ -6,14 +6,24 @@ const Main = () => {
 
             <div className="home-page-tout wf-section">
                 <div className="home-page-text-container w-container">
-                    <div className="sub-copy">KAILASA is the Revival of the Ancient Enlightened Hindu Civilizational Nation which is being
-                        revived by displaced Hindus from around the world. <br /><br />The Kailashian movement is founded and
-                        spearheaded by members of the Hindu Adi Shaivite minority community from Canada, the United States and other
-                        Countries and is created for and offers a safe haven to all the world's practicing, aspiring or persecuted
-                        Hindus, irrespective of race, gender, sect, caste, or creed, where they can peacefully live and express their
-                        spirituality, arts, and culture free from denigration, interference and violence.<br /></div>
-                </div>
-            </div>
+                    <div className="sub-copy text-start">
+
+
+                        <p> Kailashian Metaverse is a meta world which consists of digital payment token kailashian dollars and virtual man made islands near Ecuador. This meta verse project is conceptualised from the comical talks of Rajasekaran.
+                        </p>
+
+                        <p>  Token Name: Kailashian Dollars</p>
+                        <p> Token Symbol: KAI</p>
+                        <p> Total Supply: 10,000 Billion KAI</p>
+                        <p> Decimals: 18</p>
+
+                        <p> Launch Price</p>
+                        <p> 0.001 USD PER KAILASHIAN DOLLAR</p>
+
+
+                    </div >
+                </div >
+            </div >
 
 
             <div className="section wf-section">
@@ -82,7 +92,7 @@ const Main = () => {
                 </div>
             </div>
 
-        </div>
+        </div >
     );
 };
 

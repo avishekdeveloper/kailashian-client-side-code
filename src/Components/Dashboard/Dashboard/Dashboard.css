@@ -1,0 +1,17 @@
+.dashboard-tabs {
+    color: black;
+    text-decoration: none;
+}
+.dashboard-tabs button {
+    margin: 2px 0;
+    width: 75%;
+    font-weight: bolder;
+}
+.active button {
+    color: white;
+    border-bottom: 2px solid #196bd2;
+    background-color: #196bd2;
+}
+.active button:hover {
+    background-color: #196bd2;
+}
