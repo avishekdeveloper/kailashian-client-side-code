@@ -1,0 +1,38 @@
+
+.text-field {
+    background: #ffffff;
+    color: rgb(49, 47, 47) !important;
+    outline-color: #1f701f;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+.submit-request{
+    background-color: rgb(92, 158, 79);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.input {
+    height: 50px !important;
+}
+.textarea {
+    height: 120px !important;
+}
+.send-btn {
+    margin-top: 15px !important;
+    background: coral !important;
+    color: aliceblue;
+    font-weight: bold;
+    width: 25%;
+}
+.contact-icon {
+    color: #1f701f;
+    font-size: 30px !important;
+    margin: 5px 5px 0px 0px;
+}

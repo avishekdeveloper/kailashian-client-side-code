@@ -511,7 +511,7 @@ const Header = () => {
                                 <nav className="dropdown-list w-dropdown-list">
                                     <Link className="dropdown-link w-dropdown-link" to="/news">News</Link>
                                     <Link className="dropdown-link w-dropdown-link" to="/support">Support</Link>
-                                    <Link className="dropdown-link w-dropdown-link" to="/telegram">Telegram</Link>
+                                    <a className="dropdown-link w-dropdown-link" href="https://t.me/dslsg" target="_blank" >Telegram</a>
 
                                 </nav>
                             </div>
@@ -622,7 +622,11 @@ const Header = () => {
                                     <Nav.Link className="nav-link bg-white text-dark" as={Link} to="/support">Support</Nav.Link>
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">
-                                    <Nav.Link className="nav-link bg-white text-dark" as={Link} to="/telegram">Telegram</Nav.Link>
+                                   
+                                    {/* <Nav.Link className="nav-link bg-white text-dark" > */}
+                                        
+                                        <a className="nav-link bg-white text-dark" href="https://t.me/dslsg" target="_blank" >Telegram</a>
+                                    {/* </Nav.Link> */}
                                 </NavDropdown.Item>
 
                             </NavDropdown>
