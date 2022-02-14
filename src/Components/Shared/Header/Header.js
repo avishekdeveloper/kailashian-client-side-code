@@ -485,7 +485,7 @@ const Header = () => {
                                     <Link className="dropdown-link w-dropdown-link" to="/what-is-kailashian">What is Kailashian.com?</Link>
                                     <Link className="dropdown-link w-dropdown-link" to="/buying-island">Buying Island</Link>
                                     <Link className="dropdown-link w-dropdown-link" to="/selling-island">Selling Island</Link>
-                                    <Link className="dropdown-link w-dropdown-link" to="/get-your-kailashian">Get Your Kailashian Dollars</Link>
+                                    <Link className="dropdown-link w-dropdown-link" to="/get-your-kailashian">Get Your US Dollars</Link>
                                     <Link className="dropdown-link w-dropdown-link" to="/earn-usd">Earn USD</Link>
 
                                 </nav>

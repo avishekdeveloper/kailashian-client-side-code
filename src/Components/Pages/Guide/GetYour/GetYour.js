@@ -4,7 +4,7 @@ const GetYour = () => {
     return (
         <div className="py-5">
             <div className="about-us-section ">
-                <h1>Get your Kailashian Dollars</h1>
+                <h1>Get your US Dollars</h1>
                 <div className="container w-container">
                 </div>
             </div>

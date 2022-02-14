@@ -2,9 +2,9 @@ import React from 'react';
 
 const DefaultPage = () => {
     return (
-        <div>
-            <h2>Welcome to mobilepoint dashboard</h2>
-            <img src="https://i.ibb.co/mHWZzbm/Welcome.png" style={{ width: '50%' }} alt='' />
+        <div className="d-flex justify-content-center align-items-center flex-column">
+            <h1>Welcome to Kailashian dashboard</h1>
+            <img src="images/logo-NFLPA.png" style={{ width: '30%' }} alt='' />
         </div>
     );
 };

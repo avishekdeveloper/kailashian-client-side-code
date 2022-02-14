@@ -12,23 +12,27 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { Switch, Route, Link, useRouteMatch, NavLink } from "react-router-dom";
 import { Avatar, Button } from '@mui/material';
-import Review from '../Review/Review';
-import MyOrders from '../MyOrders/MyOrders';
-import Payment from '../Payment/Payment';
-import MakeAdmin from '../MakeAdmin/MakeAdmin';
-import useAuth from '../../../Hooks/useAuth';
+// import Review from '../Review/Review';
+// import MyOrders from '../MyOrders/MyOrders';
+// import Payment from '../Payment/Payment';
+// import MakeAdmin from '../MakeAdmin/MakeAdmin';
+// import useAuth from '../../../Hooks/useAuth';
 import DefaultPage from '../DefaultPage/DefaultPage';
-import AdminRoute from '../../Login/AdminRoute/AdminRoute';
-import AddNewMobile from '../AddNewMobile/AddNewMobile';
-import ManageAllBlogs from '../ManageAllBlogs/ManageAllBlogs';
-import ManageBlogs from '../ManageBlogs/ManageBlogs';
+// import AdminRoute from '../../Login/AdminRoute/AdminRoute';
+import useAuth from '../../../Hooks/useAuth';
+import Pages from '../Pages/Pages';
+// import AddNewMobile from '../AddNewMobile/AddNewMobile';
+// import ManageAllBlogs from '../ManageAllBlogs/ManageAllBlogs';
+// import ManageBlogs from '../ManageBlogs/ManageBlogs';
+// import {Link} from 'react-bootstrap'
+
 
 
 const drawerWidth = 250;
 
 function Dashboard(props) {
-    const { user, admin } = useAuth();
-    const { logOut } = useAuth();
+    const { user, admin, logOut } = useAuth();
+    // const { logOut } = useAuth();
     const { window } = props;
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -37,9 +41,9 @@ function Dashboard(props) {
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
     };
-
+    console.log(user.displayName);
     const drawer = (
-        <div>
+        <div className="py-5">
 
             <Toolbar />
             <Divider />
@@ -49,6 +53,7 @@ function Dashboard(props) {
                     src={user?.photoURL}
                     sx={{ width: 150, height: 150, mx: 'auto', mt: 1 }}
                 />
+
                 <Typography variant="h5" sx={{ mt: 1, fontWeight: 700, textAlign: 'center' }}>{user?.displayName}</Typography>
                 <Typography variant="h6" sx={{ textAlign: 'center' }}>{user?.email}</Typography>
             </Box>
@@ -57,24 +62,40 @@ function Dashboard(props) {
                     !admin ?
                         <Box>
                             <NavLink exact activeClassName="active" to={`${url}`} className="dashboard-tabs"><Button color="inherit">Dashboard</Button></NavLink>
-                            <NavLink exact activeClassName="active" to={`${url}/myOrders`} className="dashboard-tabs"><Button color="inherit">My Orders</Button></NavLink>
+                            <NavLink exact activeClassName="active" to="/login" className="dashboard-tabs"><Button color="inherit">Login</Button></NavLink>
+                            <Typography > Please Login as Admin </Typography>
+
+                            {/* <Button sx={{ width: "75%", mt: 1, backgroundColor: 'green' }}  >
+                                <NavLink exact to="/login" className="dashboard-tabs"><Button color="inherit">Dashboard</Button></NavLink>
+                            </Button>
+                            <Link className="btn btn-success">Login</Link> */}
+                            {/* <Button sx={{ width: "75%", mt: 1, backgroundColor: 'green' }} variant="contained" >
+                                <Link to="/login">Login</Link>
+
+                            </Button> */}
+
+
+                            {/* <NavLink exact activeClassName="active" to={`${url}/myOrders`} className="dashboard-tabs"><Button color="inherit">My Orders</Button></NavLink>
                             <NavLink exact activeClassName="active" to={`${url}/review`} className="dashboard-tabs"><Button color="inherit">Review</Button></NavLink>
-                            <NavLink exact activeClassName="active" to={`${url}/payment`} className="dashboard-tabs"><Button color="inherit">Payment</Button></NavLink>
+                            <NavLink exact activeClassName="active" to={`${url}/payment`} className="dashboard-tabs"><Button color="inherit">Payment</Button></NavLink> */}
                         </Box>
                         :
                         <Box>
                             <NavLink exact activeClassName="active" to={`${url}`} className="dashboard-tabs"><Button color="inherit">Dashboard</Button></NavLink>
-                            <NavLink exact activeClassName="active" to={`${url}/makeAdmin`} className="dashboard-tabs"><Button color="inherit">Make Admin</Button></NavLink>
+                            <NavLink exact activeClassName="active" to={`${url}/pages`} className="dashboard-tabs"><Button color="inherit">Pages</Button></NavLink>
+                            {/* <NavLink exact activeClassName="active" to={`${url}`} className="dashboard-tabs"><Button color="inherit">Dashboard</Button></NavLink> */}
+
+                            {/* <NavLink exact activeClassName="active" to={`${url}/makeAdmin`} className="dashboard-tabs"><Button color="inherit">Make Admin</Button></NavLink>
                             <NavLink exact activeClassName="active" to={`${url}/addNewmobile`} className="dashboard-tabs"><Button color="inherit">Add New mobile</Button></NavLink>
                             <NavLink exact activeClassName="active" to={`${url}/manageAllBlogs`} className="dashboard-tabs"><Button color="inherit">Manage All Blogs</Button></NavLink>
-                            <NavLink exact activeClassName="active" to={`${url}/manageBlogs`} className="dashboard-tabs"><Button color="inherit">Manage Blogs</Button></NavLink>
+                            <NavLink exact activeClassName="active" to={`${url}/manageBlogs`} className="dashboard-tabs"><Button color="inherit">Manage Blogs</Button></NavLink> */}
                         </Box>
                 }
             </Box>
             <Divider />
             <Box sx={{ mt: 2, textAlign: 'center' }}>
                 <Link to="/" className="dashboard-tabs"><Button sx={{ width: "75%", mt: 1 }} variant="outlined">Go Home</Button></Link>
-                <Button sx={{ width: "75%", mt: 1, backgroundColor: 'red' }} variant="contained" onClick={logOut}>Logout</Button>
+                <Button sx={{ width: "75%", mt: 1 }} color="error" variant="contained" onClick={logOut}>Logout</Button>
             </Box>
         </div >
     );
@@ -82,7 +103,7 @@ function Dashboard(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <Box className="py-5" sx={{ display: 'flex' }}>
 
             <CssBaseline />
             <AppBar
@@ -149,7 +170,10 @@ function Dashboard(props) {
                     <Route exact path={path}>
                         <DefaultPage></DefaultPage>
                     </Route>
-                    <Route path={`${path}/myOrders`}>
+                    <Route exact path={`${path}/pages`}>
+                        <Pages></Pages>
+                    </Route>
+                    {/* <Route path={`${path}/myOrders`}>
                         <MyOrders></MyOrders>
                     </Route>
                     <Route path={`${path}/review`}>
@@ -169,7 +193,7 @@ function Dashboard(props) {
                     </AdminRoute>
                     <AdminRoute path={`${path}/manageBlogs`}>
                         <ManageBlogs></ManageBlogs>
-                    </AdminRoute>
+                    </AdminRoute> */}
                 </Switch>
             </Box>
         </Box>

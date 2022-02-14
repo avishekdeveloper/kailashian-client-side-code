@@ -1,11 +1,11 @@
 const intialState = {
-    blogs: [],
+    whats: [],
 };
 
-export const blogsReducer = (state = intialState, { type, payload }) => {
+export const whatsReducer = (state = intialState, { type, payload }) => {
     switch (type) {
-        case 'SET_BLOGS':
-            return { ...state, blogs: payload };
+        case 'SET_WHATS':
+            return { ...state, whats: payload };
         default:
             return state;
     }

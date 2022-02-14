@@ -10,9 +10,9 @@ export const user = (payload) => {
         payload: payload,
     };
 };
-export const setBlogs = (payload) => {
+export const setWhats = (payload) => {
     return {
-        type: 'SET_BLOGS',
+        type: 'SET_WHATS',
         payload: payload,
     };
 };

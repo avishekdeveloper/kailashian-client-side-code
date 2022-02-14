@@ -12,7 +12,7 @@ const Main = () => {
                         <p> Kailashian Metaverse is a meta world which consists of digital payment token kailashian dollars and virtual man made islands near Ecuador. This meta verse project is conceptualised from the comical talks of Rajasekaran.
                         </p>
 
-                        <p>  Token Name: Kailashian Dollars</p>
+                        <p> Token Name: Kailashian Dollars</p>
                         <p> Token Symbol: KAI</p>
                         <p> Total Supply: 10,000 Billion KAI</p>
                         <p> Decimals: 18</p>

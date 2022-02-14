@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getAuth, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
-import initializeFirebase from "../Pages/Login/Login/Firebase/Firebase.init";
+import initializeFirebase from "../Components/Login/Login/Firebase/Firebase.init";
+// import initializeFirebase from "../Components/Login/Login/Firebase/Firebase.init";
 
 initializeFirebase();
 
@@ -29,7 +30,7 @@ const useFirebase = () => {
                 }).then(() => {
                 }).catch((error) => {
                 });
-                history.replace('/');
+                history.replace('/dashboard');
             })
             .catch((error) => {
                 setAuthError(error.message);
@@ -42,7 +43,7 @@ const useFirebase = () => {
         setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
-                const destination = location?.state?.from || '/';
+                const destination = location?.state?.from || '/dashboard';
                 history.replace(destination);
                 setAuthError('');
             })
@@ -67,7 +68,8 @@ const useFirebase = () => {
 
     // admin
     useEffect(() => {
-        fetch(`https://localhost:5000/users/${user.email}`)
+        // fetch(`https://pacific-oasis-02900.herokuapp.com/users/${user.email}`)
+        fetch(`https://kailashian-server.herokuapp.com/users/${user.email}`)
             .then(res => res.json())
             .then(data => setAdmin(data.admin))
     }, [user.email])
@@ -86,7 +88,8 @@ const useFirebase = () => {
 
     const saveUser = (email, password, displayName, method) => {
         const user = { email, password, displayName };
-        fetch('https://localhost:5000/users', {
+        // fetch('https://pacific-oasis-02900.herokuapp.com/users', {
+        fetch('https://kailashian-server.herokuapp.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'

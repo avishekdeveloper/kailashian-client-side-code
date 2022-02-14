@@ -2,12 +2,17 @@ import { Alert, Button, CircularProgress, Container, Grid, Snackbar, TextField, 
 import React, { useState } from 'react';
 import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import Footer from '../../Shared/Footer/Footer';
-import Header from '../../Shared/Header/Header';
+// import useAuth from '../../../Hooks/useAuth';
+// import useAuth from '../../../Hooks/useAuth';
+// import Footer from '../../Shared/Footer/Footer';
+// import Header from '../../Shared/Header/Header';
 
 const Login = () => {
     const [loginData, setLoginData] = useState({});
     const { user, loginUser, authError, isLoading } = useAuth();
+    console.log(user);
+    console.log(authError);
+    console.log(isLoading);
 
     // snack bar
     const [open, setOpen] = React.useState(false);
@@ -41,7 +46,6 @@ const Login = () => {
     }
     return (
         <>
-            <Header></Header>
             <Container>
                 <Grid container spacing={2}>
                     <Grid item sx={{ mt: 8 }} xs={12} md={6}>
@@ -56,7 +60,7 @@ const Login = () => {
                                 label="Your Email"
                                 variant="standard"
                                 required
-                                />
+                            />
                             <TextField
                                 sx={{ width: '75%', m: 1 }}
                                 onBlur={handleOnBlur}
@@ -64,19 +68,18 @@ const Login = () => {
                                 name="password"
                                 type="password"
                                 label="Your Password"
-                                variant="standard" 
+                                variant="standard"
                                 required
-                                />
-                            <Button onClick={handleClick} sx={{ width: '75%', m: 1, backgroundColor: '#339933' }} type="submit" variant="contained">Login</Button>
-                            <NavLink
+                            />
+                            <Button onClick={handleClick} sx={{ width: '75%', m: 1 }} type="submit" variant="contained">Login</Button>
+                            {/* <NavLink
                                 style={{ textDecoration: 'none' }}
                                 to="/signup">
                                 <Button variant="text">New User? Please Register</Button>
-                            </NavLink>
-                           
+                            </NavLink> */}
                         </form>}
                         {isLoading && <CircularProgress />}
-                        {user?.email && <Alert severity="success">User Logged in successfully!</Alert>}
+                        {/* {user?.email && <Alert severity="success">User Logged in successfully!</Alert>} */}
 
                         {authError && <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
                             <Alert onClose={handleClose} severity="error" sx={{ width: '100%' }}>
@@ -85,11 +88,10 @@ const Login = () => {
                         </Snackbar>}
                     </Grid>
                     <Grid item xs={12} md={6}>
-                        <img src="https://i.ibb.co/prhv3qC/login.jpg" style={{ width: '100%', margin:'5px' }} alt="" />
+                        <img src="https://i.ibb.co/prhv3qC/login.jpg" style={{ width: '100%', margin: '5px' }} alt="" />
                     </Grid>
                 </Grid>
             </Container>
-            <Footer></Footer>
         </>
     );
 };
